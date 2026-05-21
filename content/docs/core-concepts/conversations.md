@@ -2,9 +2,9 @@
 
 In Genezio, a **conversation** represents a single execution of a scenario against a specific AI system.
 
-Conversations are the events where Genezio interacts with an AI engine and records the results used for analysis.
+Conversations are the events where Genezio interacts with an answer engine and records the results used for analysis.
 
-Each conversation is therefore an **instance of a scenario** executed with a particular AI engine.
+Each conversation is therefore an **instance of a scenario** executed with a particular answer engine.
 
 ---
 
@@ -19,7 +19,7 @@ A **conversation** occurs when Genezio executes that scenario with an AI system.
 For example:
 
 * Scenario: "A startup founder looking for a CRM to manage early leads"
-* AI engine: ChatGPT
+* answer engine: ChatGPT
 
 Running this scenario with ChatGPT creates **one conversation**.
 
@@ -27,9 +27,9 @@ If the same scenario is executed with multiple AI systems, multiple conversation
 
 Example:
 
-* Scenario: CRM for startups scenario | AI Engine: ChatGPT | Conversation: Conversation A
-* Scenario: CRM for startups scenario | AI Engine: Claude | Conversation: Conversation B
-* Scenario: CRM for startups scenario | AI Engine: Gemini | Conversation: Conversation C
+* Scenario: CRM for startups scenario | Answer Engine: ChatGPT | Conversation: Conversation A
+* Scenario: CRM for startups scenario | Answer Engine: Claude | Conversation: Conversation B
+* Scenario: CRM for startups scenario | Answer Engine: Gemini | Conversation: Conversation C
 
 Each of these conversations may produce different responses, citations, and brand mentions.
 
@@ -67,9 +67,9 @@ These interactions simulate how a real user might explore a topic with an AI ass
 
 ---
 
-## Conversations and AI Engines
+## Conversations and Answer Engines
 
-Genezio runs conversations across multiple AI engines.
+Genezio runs conversations across multiple answer engines.
 
 Examples include:
 

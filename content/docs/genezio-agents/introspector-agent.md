@@ -11,8 +11,27 @@ It is used for brand explanation and positioning analysis, not for organic visib
 For an Introspector Agent topic:
 
 * the scenario explicitly includes the target brand
+* a persona is **optional** (see below)
 * Genezio runs a multi-step conversation about that brand
 * prompts explore use cases, fit, strengths, and limitations
+
+### Persona Is Optional
+
+Introspector topics can run **with or without a persona**.
+
+Because Introspector is essentially asking "what does the answer engine say about us when asked directly?", the brand name is already in the prompt — and the persona overlay isn't always needed to get a meaningful answer. Skipping the persona removes a setup step for the common case where you just want to know how answer engines describe your brand, full stop.
+
+When to **add** a persona to an Introspector topic:
+
+* you want to know how the description changes when asked from a specific region, language, or buyer profile
+* you're auditing how the brand is positioned for a specific audience segment
+
+When to **skip** the persona:
+
+* you want a baseline read of how answer engines describe your brand, with no audience overlay
+* you're setting up Introspector quickly and don't have a relevant persona yet
+
+This makes Introspector the lightest-weight agent to configure: a topic, the brand name, and you're ready to run.
 
 Example scenario:
 
@@ -36,7 +55,7 @@ Introspector Agent conversations help teams analyze:
 
 * how AI systems explain a brand's category and value
 * recurring strengths or weaknesses in brand narratives
-* consistency of brand framing across AI engines
+* consistency of brand framing across answer engines
 
 ---
 

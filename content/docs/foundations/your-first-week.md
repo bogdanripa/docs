@@ -14,7 +14,7 @@
 - [ ] **Add your top 2–3 competitors.** Genezio tracks them in parallel so every score you see already has a comparative layer. → *Core Concepts → Competitors*
 - [ ] **Create your first 3–5 Topics.** Start narrow — one topic per core use case or buyer persona. You can expand later. → *Core Concepts → Topics*
 - [ ] **Create 2–3 Scenarios per topic.** Write them as real user questions — the way a buyer would actually phrase it to ChatGPT. Not "CRM features" but "What CRM should a 10-person startup use?" → *Running Conversations → Creating Scenarios*
-- [ ] **Select your LLM engines.** Start with ChatGPT and Perplexity. Add Claude and Gemini once you have the baseline. → *Running Conversations → Selecting LLM Engines*
+- [ ] **Select your answer engines.** Start with ChatGPT and Perplexity. Add Claude and Gemini once you have the baseline. → *Running Conversations → Selecting Answer Engines*
 - [ ] **Run your first conversations.** Results typically available within minutes.
 
 **End of Day 1 deliverable:** First AI Visibility % numbers for your brand and competitors. Initial list of which sources AI is already citing in your category.

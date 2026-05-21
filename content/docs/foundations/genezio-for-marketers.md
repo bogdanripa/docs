@@ -19,7 +19,7 @@ If your brand isn't in that answer, you've lost the moment — even if you rank 
 | Stat | What it means |
 | --- | --- |
 | **−25%** | Projected decline in traditional search clicks by 2026 due to AI answers |
-| **4** | Major AI engines Genezio monitors: ChatGPT, Claude, Gemini, Perplexity |
+| **4** | Major answer engines Genezio monitors: ChatGPT, Claude, Gemini, Perplexity |
 | **2** | Core KPIs that matter: AI Visibility % and AI Recommendations % |
 
 ---
@@ -38,7 +38,7 @@ If your brand isn't in that answer, you've lost the moment — even if you rank 
 
 ## What Genezio Actually Does
 
-Genezio simulates how real users interact with AI assistants, then analyzes what those AI assistants say about your brand. Think of it as mystery shopping — but for AI engines, running thousands of conversations automatically.
+Genezio simulates how real users interact with AI assistants, then analyzes what those AI assistants say about your brand. Think of it as mystery shopping — but for answer engines, running thousands of conversations automatically.
 
 1. **You define Topics** — the categories you want to be known for
 2. **Genezio runs Conversations** — simulated users ask AI assistants real questions
@@ -50,10 +50,10 @@ Genezio simulates how real users interact with AI assistants, then analyzes what
 ## What You Can Do With Genezio as a Marketer
 
 **📊 Measure your brand's AI presence**
-See your AI Visibility % and AI Recommendations % across topics, competitors, and AI engines. Know exactly where you're winning and where you're invisible.
+See your AI Visibility % and AI Recommendations % across topics, competitors, and answer engines. Know exactly where you're winning and where you're invisible.
 
 **🔍 Understand why competitors outrank you in AI answers**
-Genezio shows which sources AI engines are citing when they recommend competitors instead of you. That's your content gap — and your content roadmap.
+Genezio shows which sources answer engines are citing when they recommend competitors instead of you. That's your content gap — and your content roadmap.
 
 **✍️ Know exactly what content to create**
 The Actionable Insights section surfaces specific recommendations: which topics to target, which sources to get cited by, which narratives to build. No more guessing what to write.
@@ -73,6 +73,6 @@ See your Share of Voice — how often your brand appears compared to competitors
 The rest of this Foundations section translates Genezio's technical concepts into practical execution language:
 
 - [Your KPIs Explained](02-your-kpis-explained.md) — What AI Visibility % and AI Recommendations % mean for your business
-- [How the 4 Agents Work](03-how-the-4-agents-work.md) — The four types of AI conversations Genezio runs, and why it matters
+- [How the 5 Agents Work](03-how-the-5-agents-work.md) — The four types of AI conversations Genezio runs, and why it matters
 - [From Data to Content Strategy](04-from-data-to-content-strategy.md) — How to turn Genezio insights into a content plan
 - [Your First Week with Genezio](05-your-first-week.md) — A practical day-by-day guide to getting started

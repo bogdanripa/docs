@@ -142,6 +142,35 @@ Insights are designed to be **actionable**, meaning they describe specific impro
 
 ---
 
+## How Insights Are Presented
+
+Insights are designed to be read quickly and shared with stakeholders without rewriting them. Each insight is structured for scanning, not paragraph-by-paragraph analysis.
+
+### Diagrams Where They Help
+
+When an insight involves a process, a comparison, or a chain of cause and effect, Genezio renders it as a **diagram** inside the insight itself. Instead of a wall of text describing how three pieces connect, you see the connection.
+
+This makes it faster to grasp what's happening, and far easier to drop into a stakeholder deck or executive brief without redrawing anything.
+
+### Recommended Actions, Formatted for Scanning
+
+Every insight ends with **Recommended Actions** — the specific things to do next. These are formatted with:
+
+* **Icons** that signal the kind of action (content, citation outreach, configuration change, and so on)
+* **Answer-engine badges** that show which engines the underlying signal was observed on
+
+The result: you can glance at an insight and immediately see *what to do* and *where the evidence came from*, without parsing prose. An insight backed by behavior seen on ChatGPT and Perplexity is now visibly tagged that way, so you know which engines the recommendation is grounded in.
+
+### Answer-Engine Icons Throughout
+
+Answer-engine icons also appear in **insight tooltips** and **across the charts** that surround insights. When you hover on a number or a trend, you can see at a glance which engines contributed — no need to cross-reference a legend.
+
+### Why This Matters
+
+Insights is the part of the platform that tells you what to do. Structured presentation — diagrams, action icons, engine badges — turns each insight from a paragraph of analyst notes into something closer to a **takeaway slide**: ready to scan, ready to share, ready to act on.
+
+---
+
 ## Managing Insights
 
 Users can manage insights directly from the Insights interface.

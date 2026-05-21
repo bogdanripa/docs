@@ -77,7 +77,7 @@ Genezio runs thousands of AI conversations, each built from a persona and scenar
 1. **You define your audience** — who your customers are, where they're located, what language they speak
 2. **You define your topics** — the categories where you want to be recommended
 3. **Genezio creates realistic scenarios** — multi-step conversations that reflect real buyer questions with real constraints
-4. **AI engines respond** — ChatGPT, Claude, Gemini, and Perplexity each answer independently
+4. **answer engines respond** — ChatGPT, Claude, Gemini, and Perplexity each answer independently
 5. **Genezio analyzes every response** — who was recommended, who was mentioned, what sources were cited, and what the AI said about each brand
 
 The result is two numbers:
@@ -104,10 +104,10 @@ Together, they tell you: *are you showing up, and when you do, are you winning?*
 ## What You Can Do With Genezio
 
 **See where you're being recommended — and where you're not**
-Your AI Recommendations % is broken down by topic, persona, and AI engine. You can see exactly which scenarios you win and which ones your competitors take.
+Your AI Recommendations % is broken down by topic, persona, and answer engine. You can see exactly which scenarios you win and which ones your competitors take.
 
 **Understand why competitors get recommended instead of you**
-Genezio shows which sources AI engines cite when they recommend competitors. That's your content gap — and your content roadmap.
+Genezio shows which sources answer engines cite when they recommend competitors. That's your content gap — and your content roadmap.
 
 **Know exactly what content to create**
 Actionable Insights surfaces specific recommendations: which topics to target, which sources to get cited by, which narratives to build — all tied to the personas and scenarios where you're losing.
@@ -125,6 +125,6 @@ See your Share of Voice — how often your brand is recommended compared to comp
 ## What to Read Next
 
 - [What KPIs Are We Measuring](what-kpis-are-we-measuring.md) — Deep dive into AI Recommendations % and AI Visibility %
-- [How the 4 Agents Work](how-the-4-agents-work.md) — The four types of AI conversations Genezio runs, and why each matters
+- [How the 5 Agents Work](how-the-5-agents-work.md) — The four types of AI conversations Genezio runs, and why each matters
 - [From Data to Content Strategy](../content-hub/from-data-to-content-strategy.md) — How to turn Genezio insights into a content plan
 - [Your First Week](../getting-started/your-first-week.md) — A practical day-by-day guide to getting started

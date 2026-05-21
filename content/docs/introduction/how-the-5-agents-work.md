@@ -1,8 +1,8 @@
-# How the 4 Agents Work
+# How the 5 Agents Work
 
-*Genezio runs four types of AI conversations to understand your brand's presence. Each type answers a different question — and not all of them count toward your score. Here's why that's a feature, not a limitation.*
+*Genezio runs five types of AI conversations to understand your brand's presence. Each type answers a different question — and not all of them count toward your score. Here's why that's a feature, not a limitation.*
 
-> **Think of it like this:** Imagine hiring four different mystery shoppers to evaluate your brand. Each one walks into a store (or asks an AI) with a different brief. The results they bring back reveal very different things about how you're perceived.
+> **Think of it like this:** Imagine hiring five different mystery shoppers to evaluate your brand. Each one walks into a store (or asks an AI) with a different brief. The results they bring back reveal very different things about how you're perceived.
 
 ---
 
@@ -71,11 +71,37 @@
 
 **Why it doesn't count toward your score:** Both brands are named in the question, so both will always appear in the answer. Like the Introspector, including these would distort your metrics.
 
-**What it's actually for:** The Comparer is an **analysis tool**. It takes the brand-level KPIs that Genezio has already calculated from Prompter and Recommender conversations and puts them in competitive context. It also runs head-to-head AI conversations to reveal how AI engines frame you against specific competitors — what strengths it highlights, what weaknesses it mentions, and who it picks as the better fit.
+**What it's actually for:** The Comparer is an **analysis tool**. It takes the brand-level KPIs that Genezio has already calculated from Prompter and Recommender conversations and puts them in competitive context. It also runs head-to-head AI conversations to reveal how answer engines frame you against specific competitors — what strengths it highlights, what weaknesses it mentions, and who it picks as the better fit.
 
 Think of it this way: Prompter and Recommender tell you *your score*. Comparer tells you *why you're winning or losing against a specific rival*.
 
 **Content implication:** Competitive intelligence · "vs" comparison page strategy · Win/loss narrative
+
+---
+
+## Agent 5: Fact Checker Agent
+
+**Does not count toward KPIs — this is an accuracy measurement tool**
+
+**What it simulates:** A factual probe. Instead of asking the answer engine open-ended questions, you give it specific verifiable claims about your brand (pricing, features, founding year, customer counts, certifications) and measure whether it confirms, contradicts, or dodges each one.
+
+**Example claims:**
+- "Our product offers a free tier."
+- "We were founded in 2019."
+- "We are SOC 2 Type II certified."
+
+**Per-claim outcomes:**
+- **True** — the engine confirms the claim
+- **False** — the engine contradicts the claim
+- **Indecisive** — the engine doesn't take a clear position
+
+**Why it doesn't count toward your score:** The claims are stated in the prompt, so the conversation isn't measuring discovery. It's measuring accuracy — a different axis from visibility and recommendation.
+
+**What it's actually for:** Fact Checker is most useful for brands where factual accuracy directly affects buyer trust or regulatory standing — security, financial services, healthcare, regulated industries. It also pairs with the [Knowledge Base](../core-concepts/knowledge-base.html) and [Grounded Statements](../core-concepts/statements.html) to form a complete accuracy stack: KB defines truth, Fact Checker actively tests whether answer engines confirm it, Grounded Statements show whether engines spontaneously match it.
+
+**Content implication:** Update product/pricing/certification pages so the right facts are public and crawlable · Correct third-party listings · Publish authoritative reference content for high-risk claims
+
+See [Fact Checker Agent](../genezio-agents/fact-checker-agent.html) for the full feature page.
 
 ---
 
@@ -87,8 +113,9 @@ Think of it this way: Prompter and Recommender tell you *your score*. Comparer t
 | **Recommender** | Ready to decide | No | ✓ Measures AI Recommendations + Visibility | Intent measurement |
 | **Introspector** | Learning about a brand | Yes | Narrative analysis (not KPIs) | Narrative & accuracy audit |
 | **Comparer** | Comparing options | Yes (both) | Competitive analysis (not KPIs) | Competitive positioning |
+| **Fact Checker** | Verifying specific claims | Yes | Accuracy measurement (not KPIs) | Hallucination & factual monitoring |
 
-> **Two agents measure. Two agents analyze.** Prompter and Recommender generate your KPIs. Introspector and Comparer help you understand the narratives and competitive dynamics behind those numbers. All four are essential — but they play different roles.
+> **Two agents measure. Three agents analyze.** Prompter and Recommender generate your KPIs. Introspector, Comparer, and Fact Checker help you understand the narratives, competitive dynamics, and factual accuracy behind those numbers. All five are essential — but they play different roles.
 
 ---
 

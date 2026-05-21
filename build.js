@@ -20,6 +20,9 @@ const sections = [
       'Create Scenarios',
       'Run Your First Conversations',
       'Understanding Your First Results',
+      'Generating Personas from Documents',
+      'Customizing Your Dashboard',
+      'Topic Tags',
       'Your First Week'
     ]
   },
@@ -36,7 +39,7 @@ const sections = [
       'How AI Citations Work',
       'What KPIs Are We Measuring',
       'How Genezio Measures Visibility',
-      'How the 4 Agents Work'
+      'How the 5 Agents Work'
     ]
   },
   {
@@ -56,14 +59,15 @@ const sections = [
       'Query Fanouts',
       'Citations',
       'Statements',
-      'Competitors'
+      'Competitors',
+      'Knowledge Base'
     ]
   },
   {
     slug: 'genezio-agents',
     title: 'Genezio Agents',
     description: 'Agent types used to run conversations in Genezio.',
-    pages: ['Prompter Agent', 'Recommender Agent', 'Introspector Agent', 'Comparer Agent']
+    pages: ['Prompter Agent', 'Recommender Agent', 'Introspector Agent', 'Comparer Agent', 'Fact Checker Agent']
   },
   {
     slug: 'analysis',
@@ -71,9 +75,10 @@ const sections = [
     description: 'Configure and run analysis workflows.',
     pages: [
       'Creating Scenarios',
-      'Selecting LLM Engines',
+      'Selecting Answer Engines',
       'Running Conversations',
-      'Sentiment Analysis'
+      'Sentiment Analysis',
+      'Playground'
     ]
   },
   {
@@ -85,6 +90,7 @@ const sections = [
       'AI Visibility Score',
       'Share of Voice',
       'Competitor Insights',
+      'SWOT Analysis',
       'Sentiment Analysis',
       'Most Cited Sources',
       'Content Opportunities',
@@ -99,12 +105,25 @@ const sections = [
       'Content Hub',
       'From Data to Content Strategy',
       'Generating Articles',
+      'Briefs',
+      'Content Analysis',
       'Using Query Fanouts for Content',
       'Selecting Tone of Voice',
       'Selecting Target Audience',
       'Editing Articles',
       'Chatting with Your Article',
       'Publishing Content'
+    ]
+  },
+  {
+    slug: 'geo-assistant',
+    title: 'Geo Assistant',
+    description: 'Chat with your brand data — investigate, report, and decide what to do next.',
+    pages: [
+      'Geo Assistant',
+      'Send to Geo',
+      'Sessions and History',
+      'Actions Geo Can Take'
     ]
   },
   {

@@ -11,7 +11,7 @@ Statements help answer questions such as:
 * Which source supports the claim?
 * Which competitors are mentioned in the same context?
 
-By converting AI responses into statements, Genezio makes it possible to verify whether AI engines are telling the truth about your brand.
+By converting AI responses into statements, Genezio makes it possible to verify whether answer engines are telling the truth about your brand.
 
 ---
 
@@ -39,7 +39,7 @@ Each of these becomes an individual **statement** that can be evaluated for accu
 
 The most important thing about a statement is whether it is **correct or incorrect**.
 
-AI engines make claims about brands all the time — and those claims shape how buyers perceive you. Some claims are accurate. Others are outdated, misleading, or simply wrong.
+answer engines make claims about brands all the time — and those claims shape how buyers perceive you. Some claims are accurate. Others are outdated, misleading, or simply wrong.
 
 Examples:
 
@@ -48,21 +48,35 @@ Examples:
 * *"HubSpot offers a free CRM tier"* → **Correct**
 * *"Pipedrive includes built-in marketing automation"* → **Incorrect**
 
-When an AI engine makes an incorrect claim about your brand, it can mislead buyers and cost you recommendations. When it makes a correct claim, it reinforces your positioning.
+When an answer engine makes an incorrect claim about your brand, it can mislead buyers and cost you recommendations. When it makes a correct claim, it reinforces your positioning.
 
 ### How Accuracy Is Determined
 
-To evaluate whether a statement is correct or incorrect, Genezio relies on your **brand knowledge base** — the information you provide about your brand, products, and positioning.
+To evaluate whether a statement is correct or incorrect, Genezio compares it against your **[Knowledge Base](knowledge-base.html)** — a brand-specific source of truth you set up once in **Brand Settings**.
 
-This may include:
+The Knowledge Base typically includes:
 
 * product descriptions and capabilities
 * pricing and plans
 * target audience and use cases
 * competitive differentiators
-* any other brand guidelines
+* any other official brand guidelines
 
-By comparing AI-generated claims against your brand knowledge, Genezio can flag statements that misrepresent your brand — giving you a clear view of where AI engines are getting it right and where they are getting it wrong.
+By comparing AI-generated claims against your Knowledge Base, Genezio can flag statements that misrepresent your brand — giving you a clear view of where answer engines are getting it right and where they are getting it wrong.
+
+### Grounded Statements
+
+When a Knowledge Base is in place, every statement extracted from a conversation gets a **grounded** badge showing whether it could be verified — and how. The badge has three states:
+
+* **Grounded-correct** — the statement matches what your Knowledge Base says is true
+* **Grounded-incorrect** — the statement contradicts your Knowledge Base
+* **Not grounded** — the statement couldn't be verified against your Knowledge Base either way
+
+A tooltip on the badge explains what each state means in context.
+
+The badge turns a list of statements into a triage queue: scan the grounded-incorrect ones first (these are answer engines actively misrepresenting your brand), then work through the not-grounded ones (gaps in either your Knowledge Base or in how your messaging is documented publicly). Grounded-correct statements are the wins — proof that the narrative answer engines have about you matches the truth.
+
+Every brand gets a Knowledge Base from day one (the brand's website is crawled in automatically when the brand is created), so the grounded layer is active immediately. How much it can verify depends on how much truth your Knowledge Base covers — see [Knowledge Base](knowledge-base.html) for what to add.
 
 ---
 
@@ -140,7 +154,7 @@ Statements form the foundation for several higher-level insights in Genezio.
 They contribute to:
 
 * AI Recommendations — incorrect claims can reduce your recommendation rate
-* AI Visibility — inaccurate descriptions affect how often AI engines surface your brand
+* AI Visibility — inaccurate descriptions affect how often answer engines surface your brand
 * Share of Voice — the accuracy of claims shapes competitive positioning
 * Competitive positioning — understanding which claims favor you vs. competitors
 

@@ -10,7 +10,7 @@ For example, an insight may suggest:
 * publishing a comparison page
 * writing a guide addressing a frequently searched scenario
 
-The Content Hub allows you to generate, edit, refine, and publish these articles.
+The Content Hub allows you to generate, edit, refine, and publish these articles. You can also create **briefs** — structured outlines you can hand off to a writer or agency — from the same entry point. See [Briefs](briefs.html) for details.
 
 ---
 
@@ -29,21 +29,26 @@ The Content Hub helps you create **content specifically designed to influence AI
 To create an article:
 
 1. Open **Content Hub**.
-2. Click **New Article**.
+2. Click **New Content**.
+3. Choose **Article** as the content type. (Selecting **Brief** instead produces a structured outline — see [Briefs](briefs.html).)
+
+The **New Content** button has replaced the previous "New Article" button, because that entry point now creates either a brief or an article.
 
 The article creation process consists of several steps.
 
 ---
 
-### 1. Topic & Scenario
+### 1. Topic & Scenarios
 
-First, select the **topic** and **scenario** the article should address.
+First, select the **topic** and one or more **scenarios** the article should address.
 
 These come from the same topics and scenarios used when running conversations.
 
+You can pick **multiple scenarios** for a single piece of content, so one asset can target several user intents at once — useful when a single page (for example, a comparison or FAQ) naturally answers more than one scenario.
+
 This ensures the article is aligned with **real user questions** that AI systems already encounter.
 
-You can also choose the **article type** (for example, blog post).
+You can also choose the **article type** (for example, blog post) and apply a **template** (see Templates below).
 
 ---
 
@@ -76,6 +81,20 @@ Once these parameters are configured, you can generate the article.
 
 ---
 
+## Templates
+
+Content Hub supports **templates** — reusable document structures that new content inherits automatically.
+
+You can:
+
+* **upload your own template documents** to define the shape of a content type
+* **pick from saved templates** when creating new content
+* apply templates to both **articles and briefs**
+
+Templates are useful for teams that produce content with a consistent shape — case studies, comparison pages, FAQ pages, landing pages, agency brief formats — by codifying that shape once and reusing it for every new piece. Any new article or brief generated against a template starts from that structure instead of a blank page.
+
+---
+
 ## Editing Articles
 
 Once an article is generated, it opens in the **Content Hub editor**.
@@ -89,7 +108,7 @@ You can:
 * adjust formatting
 * add or remove content
 
-The editor behaves like a traditional writing environment, giving you full control over the article.
+The editor behaves like a traditional writing environment, giving you full control over the article. A **rich-text toolbar** is available for headings, lists, links, emphasis, and other formatting — so you don't have to guess at markup while editing.
 
 ---
 

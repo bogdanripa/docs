@@ -30,7 +30,7 @@ These queries allow the system to retrieve content covering different perspectiv
 
 ---
 
-## Why AI Engines Use Query Fanouts
+## Why Answer Engines Use Query Fanouts
 
 User questions are often broad, ambiguous, or incomplete. A single search query may not retrieve enough information to generate a high-quality answer.
 

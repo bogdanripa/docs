@@ -1,4 +1,4 @@
-# How the 4 Agents Work
+# How the 5 Agents Work
 
 *Genezio runs four types of AI conversations to understand your brand's presence. Each type answers a different question — and not all of them count toward your score. Here's why that's a feature, not a limitation.*
 

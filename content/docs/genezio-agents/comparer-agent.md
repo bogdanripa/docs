@@ -10,9 +10,12 @@ It is designed for competitive positioning analysis.
 
 For a Comparer Agent topic:
 
-* the scenario names two or more brands
+* you select the exact competitors you want to be compared against (at the topic level)
+* the scenario names your brand and those competitors
 * Genezio runs a multi-step comparison conversation
 * prompts ask for differences, tradeoffs, and best-fit recommendations
+
+Selecting competitors per topic ensures that auto-generated Comparer scenarios target the brands that actually matter for that subject area, rather than any competitor that happens to surface in AI answers.
 
 Example scenario:
 
@@ -44,10 +47,12 @@ Comparer Agent conversations help teams understand:
 
 Using Comparer, you can:
 
-* See how AI engines frame your brand against specific competitors
+* See how answer engines frame your brand against specific competitors
 * Compare recommendation and visibility rates side by side
 * Identify the strengths and weaknesses AI associates with each brand
 * Generate SWOT-style insights to guide your competitive content strategy
+
+Genezio automatically extracts a **SWOT analysis** from every Comparer conversation and displays it inline in the conversation drawer. The same SWOT is aggregated at the scenario and topic level, and an overall **SWOT Comparison** view is available from the menu under **Competitors -> SWOT**, showing SWOTs for your brand and all tracked competitors side by side. See [Insights -> SWOT Analysis](../insights/swot-analysis.html) for the full breakdown.
 
 The result is a clear view of where you're winning, where you're losing, and what narratives are driving the difference.
 
@@ -63,6 +68,7 @@ Instead, the Comparer is a **competitive analysis tool**. It consumes the brand-
 
 ## Related Pages
 
+* [Insights -> SWOT Analysis](../insights/swot-analysis.html)
 * [Core Concepts -> Competitors](../core-concepts/competitors.html)
 * [Core Concepts -> Brand Visibility](../core-concepts/brand-visibility.html)
 * [Conversation Analysis -> Running Conversations](../analysis/running-conversations.html)

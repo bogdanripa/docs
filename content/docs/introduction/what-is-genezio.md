@@ -1,6 +1,6 @@
 # What is Genezio?
 
-Genezio is a platform that helps organizations measure and improve how often AI engines like ChatGPT, Claude, Gemini, and Perplexity **recommend their brand** when users ask for solutions.
+Genezio is a platform that helps organizations measure and improve how often answer engines like ChatGPT, Claude, Gemini, and Perplexity **recommend their brand** when users ask for solutions.
 
 As more users rely on AI assistants to research products, compare services, and make purchasing decisions, being recommended in AI-generated answers is becoming as important as ranking on Google.
 
@@ -42,7 +42,7 @@ In this environment, what matters is whether the AI system **recommends your bra
 
 Genezio measures two things:
 
-1. **AI Recommendations %** — How often AI engines actively recommend your brand when users ask for a solution. This is the primary metric — it's the closest thing to a buying decision in AI search.
+1. **AI Recommendations %** — How often answer engines actively recommend your brand when users ask for a solution. This is the primary metric — it's the closest thing to a buying decision in AI search.
 2. **AI Visibility %** — How often your brand appears at all in AI-generated answers (mentioned, cited, or compared). This is the broader measure of your brand's AI presence.
 
 For example, if a user asks:
@@ -87,7 +87,7 @@ Example scenario:
 
 ### 3. Run Conversations
 
-Genezio runs conversations with supported AI engines such as:
+Genezio runs conversations with supported answer engines such as:
 
 - ChatGPT
 - Claude
@@ -141,7 +141,7 @@ This helps identify competitors in the AI landscape.
 
 ### Statement Accuracy
 
-Whether claims AI makes about a brand are correct or incorrect — evaluated against your brand knowledge base. This helps you identify where AI engines are misrepresenting your brand and where they are getting it right.
+Whether claims AI makes about a brand are correct or incorrect — evaluated against your brand knowledge base. This helps you identify where answer engines are misrepresenting your brand and where they are getting it right.
 
 ### Share of Voice
 
@@ -157,7 +157,7 @@ Users increasingly ask questions like:
 - "Recommend running shoes for marathon training."
 - "What is the best credit card for travel?"
 
-The brands that AI engines recommend in these answers gain a direct pipeline advantage. If your competitor is recommended and you're not, you're losing deals before the buyer even visits your website.
+The brands that answer engines recommend in these answers gain a direct pipeline advantage. If your competitor is recommended and you're not, you're losing deals before the buyer even visits your website.
 
 Genezio helps you understand this new landscape and take action to get recommended more.
 

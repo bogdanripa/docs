@@ -8,13 +8,13 @@ These sources provide the factual material that the model uses to generate its r
 
 ## Retrieval Before Generation
 
-Most modern AI search systems follow a pattern where **the AI engine pulls in and uses sources to build its answer**.
+Most modern AI search systems follow a pattern where **the answer engine pulls in and uses sources to build its answer**.
 
 In this process:
 
 1. A user asks a question.
 2. The system retrieves relevant documents or passages.
-3. The AI engine analyzes the retrieved information.
+3. The answer engine analyzes the retrieved information.
 4. The model generates an AI-generated answer.
 
 Because the model uses retrieved information as context, the documents selected during the retrieval stage strongly influence the final answer.

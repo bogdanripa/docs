@@ -88,7 +88,7 @@ In practice, there is an important distinction between Genezio Agent types.
 
 ### Prompter Agent
 
-The **Prompter Agent** is an agent type where the text is sent to the AI engine as a direct prompt.
+The **Prompter Agent** is an agent type where the text is sent to the answer engine as a direct prompt.
 
 It is not scenario-based like the other agent types.
 

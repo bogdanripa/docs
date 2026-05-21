@@ -1,6 +1,6 @@
 # How LLM Search Works
 
-AI engines such as ChatGPT, Claude, Gemini, and Perplexity answer questions differently from traditional search engines.
+answer engines such as ChatGPT, Claude, Gemini, and Perplexity answer questions differently from traditional search engines.
 
 Instead of returning a list of links, these systems generate an AI-generated answer by retrieving information from multiple sources and combining it into a single response.
 
@@ -21,7 +21,7 @@ Visibility is therefore determined by **ranking position** and **click-through r
 
 ---
 
-## The AI Engine Search Model
+## The Answer Engine Search Model
 
 AI-engine-powered systems follow a different process.
 
@@ -58,7 +58,7 @@ Unlike traditional keyword search, these questions are often longer and more con
 
 ## Step 2: Query Expansion
 
-AI engines rarely rely on the original question alone.
+answer engines rarely rely on the original question alone.
 
 Instead, they expand it into several related queries to gather more information. These expanded searches are often referred to as **follow-up searches (called query fanouts)**.
 
@@ -129,7 +129,7 @@ Depending on the system, the response may also include:
 
 ## Why This Matters for Visibility
 
-Because AI engines generate an AI-generated answer, users may interact primarily with the response itself rather than clicking through multiple links.
+Because answer engines generate an AI-generated answer, users may interact primarily with the response itself rather than clicking through multiple links.
 
 This means that visibility depends on:
 
@@ -143,7 +143,7 @@ A brand can therefore have strong search rankings but limited presence in AI ans
 
 ## What This Means for Organizations
 
-Organizations that want to appear in AI-generated answers need to understand how AI engines gather and combine information.
+Organizations that want to appear in AI-generated answers need to understand how answer engines gather and combine information.
 
 Important factors include:
 
@@ -158,7 +158,7 @@ Because AI-engine answers are generated from multiple sources, visibility depend
 
 ## How Genezio Analyzes This Process
 
-Genezio helps teams understand how AI engine search works in practice.
+Genezio helps teams understand how answer engine search works in practice.
 
 It does this by:
 

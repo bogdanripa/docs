@@ -15,7 +15,7 @@ These KPIs answer different questions and should be read together.
 
 It measures how often your brand is actively recommended in conversations where it appeared. The denominator is conversations where your brand was visible — making this a **conversion rate from presence to recommendation**.
 
-AI Recommendations helps you understand whether AI engines trust your brand enough to suggest it as a solution when users ask for one.
+AI Recommendations helps you understand whether answer engines trust your brand enough to suggest it as a solution when users ask for one.
 
 ---
 
@@ -47,7 +47,7 @@ The Comparer and Introspector agents serve different purposes. The Comparer is a
 
 Use both metrics together:
 
-* **AI Recommendations** tells you how often AI engines actively recommend your brand when it appears in a conversation.
+* **AI Recommendations** tells you how often answer engines actively recommend your brand when it appears in a conversation.
 * **AI Visibility** tells you how often your brand appears at all in eligible conversations.
 
 A brand may have high visibility but a lower recommendation rate, or the opposite. Reading both KPIs together gives a more complete view of AI performance.

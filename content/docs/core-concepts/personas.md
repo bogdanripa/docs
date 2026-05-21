@@ -81,7 +81,7 @@ Location can influence recommendations, available products, regulatory context, 
 
 When Genezio interacts with an AI system, it **acts as the defined persona**.
 
-This means Genezio generates prompts and follow-up questions **as if it were that user**. The system effectively impersonates the persona when talking to the AI engine.
+This means Genezio generates prompts and follow-up questions **as if it were that user**. The system effectively impersonates the persona when talking to the answer engine.
 
 For example, if the persona represents:
 
@@ -167,6 +167,30 @@ What are the fees for opening a new bank account?
 Both personas may interact with the **same brand and similar products**, but the way they ask questions-and therefore how AI systems answer-can be very different.
 
 Modeling personas allows Genezio to capture these differences and simulate how AI systems respond to different types of users.
+
+---
+
+## Creating a Persona From a Document
+
+If you already have persona research documented somewhere — a buyer-persona document, an internal customer-research deck, a job description, or anything else that describes who your customers are — you can upload it and Genezio will generate a persona from it automatically.
+
+This is the fastest path to a usable persona, and it's the recommended starting point for teams who:
+
+* already maintain persona documents in a research repository or marketing collateral
+* have customer-research output from a CRM, customer success tool, or sales discovery process
+* want to get started without filling out a multi-field form from scratch
+
+### How It Works
+
+Upload the document on the persona creation screen. Genezio reads it and generates a persona — name, role, country, city, language, and supporting context — based on what's in the document. The persona is **saved immediately** as a real, usable persona for the brand. You can edit it afterwards like any other persona if anything needs tuning.
+
+Each upload generates **one persona**. If your document describes several distinct personas, upload it separately for each one (or split the doc).
+
+### Why This Matters
+
+Building good personas is the single biggest blocker to getting meaningful results out of the platform. A weak persona produces weak conversations, which produce weak insights. Starting from a real document — one that already encodes how your team thinks about a customer segment — gets you to a useful persona in one step, instead of asking a non-research team to write something convincing into an empty form.
+
+For customers who already have persona research, it's effectively a one-step import.
 
 ---
 

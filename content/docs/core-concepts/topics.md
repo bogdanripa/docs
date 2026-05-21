@@ -4,7 +4,7 @@ In Genezio, a **topic** represents a subject area where users may ask AI assista
 
 Topics define the **scope of analysis**. They determine which questions Genezio asks AI systems and therefore where a brand's AI Recommendations and Visibility are measured.
 
-Each topic belongs to a **persona**, meaning that conversations for that topic are executed from the perspective of that persona (including their language and location).
+Most topics belong to a **persona**, meaning that conversations for that topic are executed from the perspective of that persona (including their language and location). The exception is Introspector topics, where a persona is **optional** — see [Introspector Agent](../genezio-agents/introspector-agent.html).
 
 ---
 
@@ -47,7 +47,7 @@ The structure works like this:
 1. A **topic** defines the subject area (for example: "CRM for startups").
 2. A **scenario** describes the persona's situation and goal.
 3. Genezio starts a **conversation** with an AI system based on that scenario.
-4. The conversation then consists of one or more **messages (prompts)** sent to the AI engine.
+4. The conversation then consists of one or more **messages (prompts)** sent to the answer engine.
 
 For example:
 

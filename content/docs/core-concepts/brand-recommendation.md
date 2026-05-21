@@ -1,6 +1,6 @@
 # Brand Recommendation
 
-In Genezio, **Brand Recommendation** measures how often AI engines actively recommend your brand when users ask for a solution.
+In Genezio, **Brand Recommendation** measures how often answer engines actively recommend your brand when users ask for a solution.
 
 It answers the most important question for any marketing team:
 
@@ -12,7 +12,7 @@ Brand Recommendation is expressed as a **percentage of recommendation-focused co
 
 ## What Brand Recommendation Represents
 
-When Genezio runs conversations that simulate users looking for recommendations, the AI engine may or may not recommend your brand.
+When Genezio runs conversations that simulate users looking for recommendations, the answer engine may or may not recommend your brand.
 
 Examples of being recommended:
 
@@ -55,7 +55,7 @@ The denominator is **visible conversations, not total conversations**. Recommend
 
 ## Which Conversations Are Included
 
-Brand Recommendation is a **brand-level metric** calculated from conversations where the AI engine decides on its own which brands to recommend, based on the user's needs.
+Brand Recommendation is a **brand-level metric** calculated from conversations where the answer engine decides on its own which brands to recommend, based on the user's needs.
 
 The metric is generated from **Recommender Agent** conversations — scenario-driven, multi-step conversations where a persona asks the AI for a recommendation that matches their specific situation.
 
@@ -85,7 +85,7 @@ When a user asks an AI assistant *"What should I use?"* and the AI recommends yo
 
 A higher recommendation score means:
 
-* AI engines trust your brand as a strong match for users' needs
+* answer engines trust your brand as a strong match for users' needs
 * Your brand is actively suggested ahead of competitors
 * Users who rely on AI for purchase decisions are being directed to you
 
@@ -105,7 +105,7 @@ These two metrics work together but measure different things:
 | **Why it matters** | Your conversion rate from presence to purchase intent | Measures overall brand presence and awareness |
 | **Business analogy** | Conversion rate — of the people who see you, how many choose you | Brand awareness — how many people have heard of you |
 
-A brand can have high visibility (mentioned often) but low recommendation rate (rarely the suggested choice). That gap is your priority — it means AI engines know about you but don't trust you enough to recommend you.
+A brand can have high visibility (mentioned often) but low recommendation rate (rarely the suggested choice). That gap is your priority — it means answer engines know about you but don't trust you enough to recommend you.
 
 ---
 
@@ -117,7 +117,7 @@ This allows teams to observe trends such as:
 
 * increasing recommendations after publishing better comparison content
 * competitors gaining or losing recommendation share
-* changes in how AI engines evaluate your brand against alternatives
+* changes in how answer engines evaluate your brand against alternatives
 
 Monitoring recommendations over time helps you see the direct impact of your marketing work on AI-driven purchase decisions.
 
