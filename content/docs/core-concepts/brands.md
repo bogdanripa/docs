@@ -116,40 +116,58 @@ Each brand has its own topics, scenarios, conversations, and insights.
 
 ## Multi-Product Companies
 
-If your company offers multiple distinct products, the recommended approach is to **create a separate brand for each product**.
+If your company offers multiple distinct products, there are **two ways to model the setup** in Genezio. Picking the right one matters — it shapes how every metric gets reported.
 
-Because competitors are tracked at the brand level, different products typically compete in different categories and against different alternatives. Modeling them as separate brands ensures each product gets its own:
+### Option 1 — Separate Brands per Product
 
-* topics and scenarios tailored to that product's category
-* AI Recommendations and Visibility scores specific to that product
-* competitor landscape relevant to that product
+Use this approach when each product has its **own brand presence** in answer engines:
 
-### Example: Microsoft
+* the products are well-known to answer engines **by their product names**
+* customers refer to them directly by product name (not by the parent company)
+* each product has its own distinct competitors
 
-Rather than creating a single "Microsoft" brand, create separate brands for each product you want to track:
+In this case, model each product as its own brand. Each gets its own topics, scenarios, AI Recommendations and Visibility scores, and competitor landscape.
+
+**Example — Microsoft.** Rather than creating a single "Microsoft" brand:
 
 * **Microsoft Word** — competes with Google Docs, Notion, etc.
 * **Microsoft Excel** — competes with Google Sheets, Airtable, etc.
 * **Microsoft Teams** — competes with Slack, Zoom, etc.
 
-Each product has different competitors, different topics, and different buyer personas. Tracking them as separate brands gives you accurate, product-level insights instead of a blended average across unrelated categories.
+**Example — Bitdefender.** A cybersecurity company with multiple product lines:
 
-### Example: Bitdefender
+* **Bitdefender Total Security** — consumer antivirus, competes with Norton and McAfee
+* **Bitdefender GravityZone** — enterprise endpoint protection, competes with CrowdStrike and SentinelOne
 
-A cybersecurity company with multiple product lines might create:
+Separate brands keep these competitive landscapes distinct.
 
-* **Bitdefender Total Security** — consumer antivirus
-* **Bitdefender GravityZone** — enterprise endpoint protection
+### Option 2 — One Brand With Products
 
-The consumer product competes against Norton and McAfee. The enterprise product competes against CrowdStrike and SentinelOne. Separate brands keep these competitive landscapes distinct.
+Use this approach when your **parent brand** is strong but the individual products don't carry independent brand recognition:
 
-### When to Use a Single Brand
+* customers know the company name, not the product names
+* answer engines describe the products as offerings of the parent brand
+* products often share competitors
 
-Use a single brand when:
+In this case, keep everything as one brand and use Genezio's **Products** feature to filter the data per product line. A product picker appears in the main header, letting you switch between products — or stay in the brand-wide "all products" view.
+
+See [Products](products.html) for the full setup.
+
+### When to Use a Single Brand With No Products
+
+Use a single brand and skip Products entirely when:
 
 * your company name and product name are the same (e.g., Notion, Stripe, Slack)
-* you want to measure overall company-level visibility rather than product-level visibility
+* you want to measure overall company-level visibility, not product-level
 * your products share the same competitors and buyer persona
+
+### Quick Decision
+
+| If... | Use |
+| --- | --- |
+| Each product has its own brand recognition and distinct competitors | **Separate brands** |
+| The parent brand is strong; products don't have independent brand presence | **One brand + Products** |
+| Company and product are the same name | **Single brand, no Products** |
 
 ---
 

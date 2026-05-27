@@ -4,7 +4,7 @@ In Genezio, **competitors** are brands that appear in AI-generated answers along
 
 When AI systems respond to questions, they frequently recommend or compare multiple products or services within the same category. Genezio automatically detects these brands and classifies them as **competitors**.
 
-Competitors are tracked at the **brand level**. Each brand you create in Genezio has its own competitor landscape, which is why multi-product companies should create separate brands per product — different products compete against different alternatives.
+Competitors are tracked at the **brand level**. Each brand you create in Genezio has its own competitor landscape. For multi-product companies, this is why product modeling matters: if each product has distinct competitors and its own brand presence, separate brands per product gives the cleanest view. If the parent brand is strong but the products don't have independent brand recognition, one brand with [Products](products.html) is the better fit. See [Brands -> Multi-Product Companies](brands.html#multi-product-companies) for the full decision.
 
 Tracking competitors helps organizations understand how their brand is positioned relative to alternatives in AI-generated answers.
 

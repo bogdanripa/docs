@@ -33,7 +33,7 @@
         <ul><li><a class="" href="../introduction/what-is-genezio.html">What is Genezio?</a></li><li><a class="" href="../introduction/why-ai-recommendations-matter.html">Why AI Recommendations Matter</a></li><li><a class="" href="../introduction/how-llm-search-works.html">How LLM Search Works</a></li><li><a class="" href="../introduction/query-fanouts-explained.html">Query Fanouts Explained</a></li><li><a class="" href="../introduction/how-llms-select-sources.html">How LLMs Select Sources</a></li><li><a class="" href="../introduction/how-ai-citations-work.html">How AI Citations Work</a></li><li><a class="" href="../introduction/what-kpis-are-we-measuring.html">What KPIs Are We Measuring</a></li><li><a class="" href="../introduction/how-genezio-measures-visibility.html">How Genezio Measures Visibility</a></li><li><a class="" href="../introduction/how-the-5-agents-work.html">How the 5 Agents Work</a></li></ul>
       </section><section class="nav-group">
         <h3><a class="active" href="brands.html">Core Concepts</a></h3>
-        <ul><li><a class="active" href="brands.html">Brands</a></li><li><a class="" href="brand-recommendation.html">Brand Recommendation</a></li><li><a class="" href="brand-visibility.html">Brand Visibility</a></li><li><a class="" href="users.html">Users</a></li><li><a class="" href="personas.html">Personas</a></li><li><a class="" href="topics.html">Topics</a></li><li><a class="" href="scenarios.html">Scenarios</a></li><li><a class="" href="topic-scenario-relevance.html">Topic / Scenario Relevance</a></li><li><a class="" href="conversations.html">Conversations</a></li><li><a class="" href="query-fanouts.html">Query Fanouts</a></li><li><a class="" href="citations.html">Citations</a></li><li><a class="" href="statements.html">Statements</a></li><li><a class="" href="competitors.html">Competitors</a></li><li><a class="" href="knowledge-base.html">Knowledge Base</a></li></ul>
+        <ul><li><a class="active" href="brands.html">Brands</a></li><li><a class="" href="brand-recommendation.html">Brand Recommendation</a></li><li><a class="" href="brand-visibility.html">Brand Visibility</a></li><li><a class="" href="users.html">Users</a></li><li><a class="" href="personas.html">Personas</a></li><li><a class="" href="topics.html">Topics</a></li><li><a class="" href="scenarios.html">Scenarios</a></li><li><a class="" href="topic-scenario-relevance.html">Topic / Scenario Relevance</a></li><li><a class="" href="conversations.html">Conversations</a></li><li><a class="" href="query-fanouts.html">Query Fanouts</a></li><li><a class="" href="citations.html">Citations</a></li><li><a class="" href="statements.html">Statements</a></li><li><a class="" href="competitors.html">Competitors</a></li><li><a class="" href="knowledge-base.html">Knowledge Base</a></li><li><a class="" href="products.html">Products</a></li></ul>
       </section><section class="nav-group">
         <h3><a class="" href="../genezio-agents/prompter-agent.html">Genezio Agents</a></h3>
         <ul><li><a class="" href="../genezio-agents/prompter-agent.html">Prompter Agent</a></li><li><a class="" href="../genezio-agents/recommender-agent.html">Recommender Agent</a></li><li><a class="" href="../genezio-agents/introspector-agent.html">Introspector Agent</a></li><li><a class="" href="../genezio-agents/comparer-agent.html">Comparer Agent</a></li><li><a class="" href="../genezio-agents/fact-checker-agent.html">Fact Checker Agent</a></li></ul>
@@ -125,35 +125,52 @@
 <p>Each brand has its own topics, scenarios, conversations, and insights.</p>
 <hr />
 <h2>Multi-Product Companies</h2>
-<p>If your company offers multiple distinct products, the recommended approach is to <strong>create a separate brand for each product</strong>.</p>
-<p>Because competitors are tracked at the brand level, different products typically compete in different categories and against different alternatives. Modeling them as separate brands ensures each product gets its own:</p>
+<p>If your company offers multiple distinct products, there are <strong>two ways to model the setup</strong> in Genezio. Picking the right one matters — it shapes how every metric gets reported.</p>
+<h3>Option 1 — Separate Brands per Product</h3>
+<p>Use this approach when each product has its <strong>own brand presence</strong> in answer engines:</p>
 <ul>
-<li>topics and scenarios tailored to that product&#39;s category</li>
-<li>AI Recommendations and Visibility scores specific to that product</li>
-<li>competitor landscape relevant to that product</li>
+<li>the products are well-known to answer engines <strong>by their product names</strong></li>
+<li>customers refer to them directly by product name (not by the parent company)</li>
+<li>each product has its own distinct competitors</li>
 </ul>
-<h3>Example: Microsoft</h3>
-<p>Rather than creating a single &quot;Microsoft&quot; brand, create separate brands for each product you want to track:</p>
+<p>In this case, model each product as its own brand. Each gets its own topics, scenarios, AI Recommendations and Visibility scores, and competitor landscape.</p>
+<p><strong>Example — Microsoft.</strong> Rather than creating a single &quot;Microsoft&quot; brand:</p>
 <ul>
 <li><strong>Microsoft Word</strong> — competes with Google Docs, Notion, etc.</li>
 <li><strong>Microsoft Excel</strong> — competes with Google Sheets, Airtable, etc.</li>
 <li><strong>Microsoft Teams</strong> — competes with Slack, Zoom, etc.</li>
 </ul>
-<p>Each product has different competitors, different topics, and different buyer personas. Tracking them as separate brands gives you accurate, product-level insights instead of a blended average across unrelated categories.</p>
-<h3>Example: Bitdefender</h3>
-<p>A cybersecurity company with multiple product lines might create:</p>
+<p><strong>Example — Bitdefender.</strong> A cybersecurity company with multiple product lines:</p>
 <ul>
-<li><strong>Bitdefender Total Security</strong> — consumer antivirus</li>
-<li><strong>Bitdefender GravityZone</strong> — enterprise endpoint protection</li>
+<li><strong>Bitdefender Total Security</strong> — consumer antivirus, competes with Norton and McAfee</li>
+<li><strong>Bitdefender GravityZone</strong> — enterprise endpoint protection, competes with CrowdStrike and SentinelOne</li>
 </ul>
-<p>The consumer product competes against Norton and McAfee. The enterprise product competes against CrowdStrike and SentinelOne. Separate brands keep these competitive landscapes distinct.</p>
-<h3>When to Use a Single Brand</h3>
-<p>Use a single brand when:</p>
+<p>Separate brands keep these competitive landscapes distinct.</p>
+<h3>Option 2 — One Brand With Products</h3>
+<p>Use this approach when your <strong>parent brand</strong> is strong but the individual products don&#39;t carry independent brand recognition:</p>
+<ul>
+<li>customers know the company name, not the product names</li>
+<li>answer engines describe the products as offerings of the parent brand</li>
+<li>products often share competitors</li>
+</ul>
+<p>In this case, keep everything as one brand and use Genezio&#39;s <strong>Products</strong> feature to filter the data per product line. A product picker appears in the main header, letting you switch between products — or stay in the brand-wide &quot;all products&quot; view.</p>
+<p>See <a href="products.html">Products</a> for the full setup.</p>
+<h3>When to Use a Single Brand With No Products</h3>
+<p>Use a single brand and skip Products entirely when:</p>
 <ul>
 <li>your company name and product name are the same (e.g., Notion, Stripe, Slack)</li>
-<li>you want to measure overall company-level visibility rather than product-level visibility</li>
+<li>you want to measure overall company-level visibility, not product-level</li>
 <li>your products share the same competitors and buyer persona</li>
 </ul>
+<h3>Quick Decision</h3>
+<table>
+<thead><tr><th style="text-align:left">If...</th><th style="text-align:left">Use</th></tr></thead>
+<tbody>
+<tr><td style="text-align:left">Each product has its own brand recognition and distinct competitors</td><td style="text-align:left"><strong>Separate brands</strong></td></tr>
+<tr><td style="text-align:left">The parent brand is strong; products don&#39;t have independent brand presence</td><td style="text-align:left"><strong>One brand + Products</strong></td></tr>
+<tr><td style="text-align:left">Company and product are the same name</td><td style="text-align:left"><strong>Single brand, no Products</strong></td></tr>
+</tbody>
+</table>
 <hr />
 <h2>Brand Users and Access</h2>
 <p>Brands in Genezio also have users.</p>

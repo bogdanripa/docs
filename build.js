@@ -60,7 +60,8 @@ const sections = [
       'Citations',
       'Statements',
       'Competitors',
-      'Knowledge Base'
+      'Knowledge Base',
+      'Products'
     ]
   },
   {
